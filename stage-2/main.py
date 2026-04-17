@@ -8,7 +8,7 @@ def read_root():
     return {"message": "API is running"}
 
 
-@app.get("/healthy")
+@app.get("/health")
 def healthy():
     return {"message": "healthy"}
 
